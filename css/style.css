@@ -784,7 +784,7 @@ body {
   height: 477px;
   margin-right: 90px;
   content: "";
-  background-image: url("../../img/discover-img.jpg");
+  background-image: url("../img/discover-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
@@ -948,7 +948,7 @@ body {
 .card-block__user span::after {
   position: absolute;
   content: "";
-  background-image: url("../../img/verification.png");
+  background-image: url("../img/verification.png");
   background-repeat: no-repeat;
   top: 0px;
   right: -16px;
@@ -1066,7 +1066,7 @@ body {
   content: "";
   top: 14px;
   right: 8px;
-  background-image: url("../../img/btn-arrow.svg");
+  background-image: url("../img/btn-arrow.svg");
   background-repeat: no-repeat;
   width: 25px;
   height: 10px;
@@ -1491,10 +1491,12 @@ body {
 }
 
 .sellers__dropdown-link::after {
-  content: url("../../img/dropdown-arrow.svg");
+  content: url("../img/dropdown-arrow.svg");
   border: none;
   width: 8px;
   height: 12px;
+  top: 3px;
+  position: relative;
 }
 
 .sellers__dropdown-link:hover {
@@ -1608,7 +1610,7 @@ body {
   top: 0;
   left: 0;
   content: "";
-  background-image: url("../../img/ETH.svg");
+  background-image: url("../img/ETH.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1661,7 +1663,7 @@ body {
 }
 
 .images-bg {
-  background-image: url("../../img/big-bg.jpg");
+  background-image: url("../img/big-bg.jpg");
   background-size: cover;
   background-position: center;
   height: 556px;
@@ -2331,6 +2333,10 @@ body {
         align-self: flex-start;
   }
 
+  .discover__btn span {
+    font-size: 14px !important;
+  }
+
   .discover__btn {
     min-width: 180px;
   }
@@ -2366,7 +2372,16 @@ body {
   }
 
   .explore-btn {
+    max-width: 200px;
     margin-left: 0;
+  }
+
+  .explore-btn span {
+    font-size: 22px;
+  }
+
+  .explore-btn img {
+    width: 30px;
   }
 
   .partners {
@@ -2381,6 +2396,8 @@ body {
        -moz-column-gap: 25px;
             column-gap: 25px;
     row-gap: 30px;
+    margin: 0 15px;
+    justify-items: center;
   }
 
   .nft__button {
@@ -2522,6 +2539,12 @@ body {
   }
 }
 
+@media (max-width: 460px) {
+  .sellers__dropdown-menu {
+    min-width: 6rem;
+  }
+}
+
 @media (max-width: 420px) {
   .discover__title {
     max-width: 380px;
@@ -2636,6 +2659,10 @@ body {
     margin-bottom: 33px;
   }
 
+  .discover__btn span {
+    font-size: 12px !important;
+  }
+
   .discover__btn {
     min-width: 133px;
   }
@@ -2667,6 +2694,7 @@ body {
   }
 
   .explore-btn span {
+    font-size: inherit;
     margin-left: 15px;
     margin-right: 8px;
   }
@@ -2684,6 +2712,9 @@ body {
   .partners {
     margin-top: 10px;
     margin-bottom: 8px;
+    justify-items: normal;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .partners__img {
@@ -2881,6 +2912,10 @@ body {
 
   .sellers__dropdown-link {
     padding: 0px 0px 0px 5px;
+  }
+
+  .sellers__dropdown-menu {
+    min-width: 4rem;
   }
 
   .sellers__text {
