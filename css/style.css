@@ -357,7 +357,7 @@ body {
   top: 6.5px;
   right: -15px;
   bottom: 0;
-  background-image: url("../../img/verification.png");
+  background-image: url("../img/verification.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 16px;
@@ -594,7 +594,7 @@ body {
 }
 
 .footer__accordion-mb .accordion-button::after {
-  background-image: url("../../img/footer-arrow.svg");
+  background-image: url("../img/footer-arrow.svg");
   background-position: center;
   background-size: contain !important;
   width: 15px;
@@ -634,7 +634,7 @@ body {
 .new::after {
   position: absolute;
   content: "";
-  background-image: url("../../img/new.svg");
+  background-image: url("../img/new.svg");
   background-repeat: no-repeat;
   width: 59px;
   height: 27px;
@@ -2417,6 +2417,10 @@ body {
     background: rgba(18, 2, 44, 0.9215686275);
   }
 
+  .nft .card-block__user span::after {
+    top: 0;
+  }
+
   .tabs__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2459,6 +2463,10 @@ body {
   .sellers__top-user:nth-child(7),
   .sellers__top-user:nth-child(8) {
     display: none;
+  }
+
+  .sellers__left-rating::before {
+    top: -1px;
   }
 
   .sellers__button {
@@ -2554,8 +2562,20 @@ body {
     max-width: 340px;
   }
 
+  .discover__image {
+    margin-right: 30px;
+  }
+
+  .partners {
+    margin-right: 35px;
+  }
+
   .nft .card-block__button::after {
     top: 11px;
+  }
+
+  .sellers__left-rating::before {
+    top: -2px;
   }
 }
 
@@ -2682,6 +2702,7 @@ body {
   .discover__image {
     height: 513px;
     margin-top: 11px;
+    margin-right: 0;
   }
 
   .discover__image::before {
@@ -2946,6 +2967,7 @@ body {
   .sellers__left-rating::before {
     width: 6px;
     height: 10px;
+    top: 0;
   }
 
   .sellers__right {
