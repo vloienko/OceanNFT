@@ -2428,6 +2428,15 @@ body {
             flex-direction: column;
   }
 
+  .tabs__small-btn {
+    gap: 15px;
+  }
+
+  .tabs__small-btn img {
+    width: 30px;
+    margin-right: 4px;
+  }
+
   .tabs__column {
     gap: 18px;
   }
@@ -2563,11 +2572,11 @@ body {
   }
 
   .discover__image {
-    margin-right: 30px;
+    margin-right: 40px;
   }
 
   .partners {
-    margin-right: 35px;
+    margin-right: 40px;
   }
 
   .nft .card-block__button::after {
@@ -2772,6 +2781,7 @@ body {
   .nft__card-block {
     padding: 33px 16px 13px 20px;
     height: 164px;
+    width: 100%;
   }
 
   .nft__explore {
@@ -2859,6 +2869,15 @@ body {
   .tabs__body {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .tabs__small-btn {
+    gap: 7px;
+  }
+
+  .tabs__small-btn img {
+    width: 22px;
+    margin-right: 0;
   }
 
   .tabs__btn {
