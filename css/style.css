@@ -351,13 +351,15 @@ body {
   padding-right: 5px;
 }
 
+.no-webp .login::after {
+  background-image: url("../img/verification.png"); }
+
 .login::after {
   position: absolute;
   content: "";
   top: 6.5px;
   right: -15px;
   bottom: 0;
-  background-image: url("../img/verification.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 16px;
@@ -775,6 +777,9 @@ body {
   position: relative;
 }
 
+.no-webp .discover__image::before {
+  background-image: url("../img/discover-img.jpg"); }
+
 .discover__image::before {
   position: absolute;
   top: 12px;
@@ -784,7 +789,6 @@ body {
   height: 477px;
   margin-right: 90px;
   content: "";
-  background-image: url("../img/discover-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
@@ -945,10 +949,12 @@ body {
   position: relative;
 }
 
+.no-webp .card-block__user span::after {
+  background-image: url("../img/verification.png"); }
+
 .card-block__user span::after {
   position: absolute;
   content: "";
-  background-image: url("../img/verification.png");
   background-repeat: no-repeat;
   top: 0px;
   right: -16px;
@@ -1662,8 +1668,10 @@ body {
   background-color: #3b113f;
 }
 
+.no-webp .images-bg {
+  background-image: url("../img/big-bg.jpg"); }
+
 .images-bg {
-  background-image: url("../img/big-bg.jpg");
   background-size: cover;
   background-position: center;
   height: 556px;
@@ -3061,3 +3069,11 @@ body {
     padding: 8px 24px;
   }
 }
+
+.webp .login::after { background-image: url(../img/verification.webp); }
+
+.webp .discover__image::before { background-image: url(../img/discover-img.webp); }
+
+.webp .card-block__user span::after { background-image: url(../img/verification.webp); }
+
+.webp .images-bg { background-image: url(../img/big-bg.webp); }
