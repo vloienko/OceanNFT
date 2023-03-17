@@ -252,9 +252,9 @@ body {
 }
 
 .container {
-  max-width: 1410px;
-  margin: 0 auto;
-  padding: 0 15px;
+  max-width: 1410px !important;
+  margin: 0 auto !important;
+  padding: 0 15px !important;
 }
 
 body._lock {
@@ -397,6 +397,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 100px;
+  padding-bottom: 8px;
 }
 
 .header__block {
@@ -413,6 +414,7 @@ body {
 }
 
 .header__navbar-btn {
+  background-color: transparent;
   z-index: 20;
 }
 
@@ -1685,7 +1687,7 @@ body {
 
 .images-bg__nft {
   max-width: 577px;
-  padding: 69px 70px 46px 70px;
+  padding: 56px 70px 46px 70px;
   margin-right: 27px;
   background: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(72.8013px);
@@ -1696,8 +1698,9 @@ body {
 
 .images-bg__title {
   font-weight: 800;
+  letter-spacing: 0.4px;
   font-size: 44px;
-  margin-bottom: 33px;
+  margin-bottom: 24px;
 }
 
 .images-bg__text {
@@ -2083,7 +2086,7 @@ body {
   }
 
   .images-bg__title {
-    margin-bottom: calc(10px + 23 * ((100vw - 375px) / 1225));
+    margin-bottom: calc(13px + 11 * ((100vw - 375px) / 1225));
   }
 
   .images-bg__text {
@@ -2614,6 +2617,14 @@ body {
     width: 100%;
   }
 
+  .header__navbar-btn {
+    padding-right: 13px;
+  }
+
+  .header__navbar-btn img {
+    padding-top: 5px;
+  }
+
   .footer {
     margin: 0 11px;
   }
@@ -3021,6 +3032,14 @@ body {
   .images-bg__nft {
     padding: 33px 35px 20px 39px;
     max-width: 335px;
+  }
+
+  .images-bg__title {
+    letter-spacing: 0.1px;
+  }
+
+  .images-bg__text {
+    letter-spacing: -0.2px;
   }
 
   .images-bg__watch {
